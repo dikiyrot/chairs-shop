@@ -1,4 +1,26 @@
+html {
+  font-size: 10px;
+  line-height: 10px;
+  color: #000000;
+}
+
 body {
+  margin: 0;
   background: #E5E5E5;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=index.css.map */
