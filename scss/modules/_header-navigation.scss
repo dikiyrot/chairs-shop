@@ -1,0 +1,21 @@
+.header-navigation {
+	background: $primary3;
+
+	&__wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		padding: 17px 0;
+	}
+
+	&__link {
+		font-size: 1.4rem;
+		line-height: 1.6rem;
+		color: $info-text-color;
+
+		&:not(:last-child) {
+			margin-right: 30px;
+		}
+	}
+}

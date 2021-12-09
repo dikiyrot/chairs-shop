@@ -23,4 +23,31 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.header-navigation {
+  background: #E5E5E5;
+}
+
+.header-navigation__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 17px 0;
+}
+
+.header-navigation__link {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: #333333;
+}
+
+.header-navigation__link:not(:last-child) {
+  margin-right: 30px;
+}
 /*# sourceMappingURL=index.css.map */
