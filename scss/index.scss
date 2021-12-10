@@ -3,9 +3,18 @@
 
 @import './modules/header-navigation';
 @import './modules/header';
+@import './modules/special-products';
+@import './modules/recently-watched-products';
 
 @import './common/callback-block';
 @import './common/default-button';
+@import './common/product-card';
+@import './common/titles';
+@import './common/products-layout';
+
+//body {
+	//background-color: red;
+//}
 
 
 
