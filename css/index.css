@@ -1,4 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
 html {
+  font-family: 'Roboto';
   font-size: 10px;
   line-height: 10px;
   color: #000000;
@@ -22,5 +24,130 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1120px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header-navigation {
+  background: #E5E5E5;
+}
+
+.header-navigation__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 17px 0;
+}
+
+.header-navigation__link {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: #333333;
+}
+
+.header-navigation__link:not(:last-child) {
+  margin-right: 30px;
+}
+
+.header {
+  background: #ffffff;
+}
+
+.header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header__logo-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo-title {
+  font-weight: bold;
+  font-size: 3.6rem;
+  line-height: 4.2rem;
+  letter-spacing: 0.1em;
+  color: #F13C6E;
+  margin-left: 20px;
+}
+
+.header__search-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 250px;
+  background: #EFEFEF;
+  border-radius: 40px;
+  padding: 0 20px;
+  height: 40px;
+}
+
+.header__search-icon {
+  margin: 5px;
+}
+
+.header__search-input {
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.callback-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.callback-block__tel-number {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #000000;
+  margin-right: 40px;
+}
+
+.callback-block__callback-button {
+  border-color: #F13C6E !important;
+  background: #ffffff;
+}
+
+.default-button {
+  cursor: pointer;
+  border-radius: 40px;
+  color: #000000;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  padding: 12px 25px;
+  border: 2px solid;
 }
 /*# sourceMappingURL=index.css.map */
