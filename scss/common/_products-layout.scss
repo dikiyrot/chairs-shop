@@ -1,0 +1,9 @@
+.products-layout {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+ 
+	//& > *:not(:last-child) {
+	//  margin-right: 30px;
+	//}
+ }
