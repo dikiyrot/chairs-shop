@@ -1,0 +1,22 @@
+.sponsors {
+	
+
+	&__wrapper {
+		
+
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+
+		//display: flex;
+		//justify-content: space-between;
+		//flex-wrap: wrap;
+		//flex: 0 1 25%;
+	}
+
+	&__item {
+		background: $primary2;
+		//width: 25%;
+		//max-width: 25%;
+		//box-sizing: border-box;
+	}
+}
