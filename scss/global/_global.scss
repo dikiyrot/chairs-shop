@@ -1,27 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
 html {
+	font-family: 'Roboto';
 	font-size: 10px;
 	line-height: 10px;
 	color: $title-text-color;
- }
- 
- body {
+}
+
+body {
 	margin: 0;
 	background: $primary3;
- }
- 
- h1,
- h2,
- h3 {
+}
+
+h1,
+h2,
+h3 {
 	margin: 0;
- }
- 
- a {
+}
+
+a {
 	text-decoration: none;
 	color: $link-text-color;
- 
+
 	&:hover {
-	  text-decoration: underline;
+		text-decoration: underline;
 	}
- }
- 
- .wrapper {}
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1120px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
